@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+
+.main {
+    background: url('./imgs/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    width: 100vw;
+    height: 100vh;
+}
+
+.text {
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+
+img {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    width: 30%;
+    height: auto;
+    transition: all 3s cubic-bezier(.19, .37, .22, 1);
+}
